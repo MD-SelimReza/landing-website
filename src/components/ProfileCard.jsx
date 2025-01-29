@@ -50,7 +50,9 @@ const ProfileCard = () => {
           </div>
         </div>
         <div className="md:flex hidden lg:hidden h-fit">
-            <button className="border cursor-pointer border-gray-200 text-black py-2 px-4 font-semibold rounded-lg active:scale-105 transition-all duration-150">WhatsApp Me</button>
+            <a href="https://wa.me/15055757863" target="_blank" rel="noopener noreferrer" className="border cursor-pointer border-gray-200 text-black py-2 px-4 font-semibold rounded-lg">
+                Whatsapp me
+            </a>
         </div>
         </div>
         <div className="mt-6">
