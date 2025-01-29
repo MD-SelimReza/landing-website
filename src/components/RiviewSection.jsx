@@ -205,7 +205,7 @@ const ReviewsSection = () => {
   
     const handleSort = (order) => {
       const sorted = [...reviews].sort((a, b) =>
-        order === 'newest' ? b.daysAgo - a.daysAgo : a.daysAgo - b.daysAgo
+        order === 'oldest' ? b.daysAgo - a.daysAgo : a.daysAgo - b.daysAgo
       );
       setSortedReviews(sorted);
       setVisibleReviews(5);
