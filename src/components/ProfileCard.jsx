@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { FaStar } from "react-icons/fa";
+import { FaStar, FaWhatsapp } from "react-icons/fa";
 import profile from "../../public/profile.jpg";
 import { FiMessageCircle } from "react-icons/fi";
 import { GrSend } from "react-icons/gr";
@@ -107,6 +107,10 @@ const ProfileCard = () => {
             {/* Corrected Gmail link */}
             <a href="mailto:nasu@fiverrlogogig.com" className="w-full cursor-pointer bg-black text-white py-2.5 rounded-lg mt-6 flex items-center justify-center gap-2 active:scale-105 transition-all duration-150">
             <GrSend /> Contact me
+            </a>
+
+            <a href="https://wa.me/15055757863" target="_blank" rel="noopener noreferrer" className="w-full sm:hidden border-2 cursor-pointer bg-black text-white py-2.5 rounded-lg mt-6 flex items-center justify-center gap-2 active:scale-105 transition-all duration-150">
+            <FaWhatsapp /> Whatsapp me
             </a>
             
             <button className="w-full cursor-pointer mt-5 border border-gray-300 py-2.5 rounded-lg flex items-center justify-center gap-2 active:scale-105 transition-all duration-150">
