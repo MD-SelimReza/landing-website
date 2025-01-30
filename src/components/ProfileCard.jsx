@@ -108,7 +108,7 @@ const ProfileCard = () => {
             </div>
             
             {/* Corrected Gmail link */}
-            <a href="mailto:nasu@fiverrlogogig.com" rel="noopener noreferrer" className="w-full cursor-pointer bg-gray-800 hover:bg-gray-900 text-white py-2.5 rounded-lg mt-6 flex items-center font-bold justify-center gap-2 active:scale-105 transition-all duration-150">
+            <a href="mailto:nasu@fiverrlogogig.com" className="w-full cursor-pointer bg-gray-800 hover:bg-gray-900 text-white py-2.5 rounded-lg mt-6 flex items-center font-bold justify-center gap-2 active:scale-105 transition-all duration-150">
             <GrSend /> Contact me
             </a>
 
