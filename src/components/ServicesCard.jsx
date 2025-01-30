@@ -65,7 +65,7 @@ const ServiceCard = () => {
             </div>
             <div>
                 <p className="text-gray-600 text-base mt-1">{service.description}</p>
-                {service.price && <p className="text-black font-semibold mt-2">{service.price}</p>}
+                {service.price && <p className="font-semibold mt-2 text-gray-700">{service.price}</p>}
                 {/* {service.consultation && (
                     <p className="text-gray-500 text-base mt-1 flex items-center gap-1.5"><RiVideoOnLine /> Offers video consultations</p>
                 )} */}

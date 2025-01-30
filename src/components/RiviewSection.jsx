@@ -158,20 +158,20 @@ const ReviewCard = ({ review }) => {
             {firstLetter}
           </div>
           <div>
-            <p className="font-bold">{review.name}</p>
+            <p className="font-bold text-gray-700">{review.name}</p>
             <div className="flex items-center gap-2 text-sm text-gray-600">
-                {
-                    review.country === "United Kingdom" ? 
-                    <img src={usa} alt={review.country} className="w-5 h-3 rounded-[1px]" /> : 
-                    <img src={uk} alt={review.country} className="w-5 h-3 rounded-[1px]" />
-                }            
+              {
+                review.country === "United Kingdom" ? 
+                <img src={usa} alt={review.country} className="w-5 h-3 rounded-[1px]" /> : 
+                <img src={uk} alt={review.country} className="w-5 h-3 rounded-[1px]" />
+              }            
               <p>{review.country}</p>
             </div>
           </div>
         </div>
         <div className="flex items-center gap-2 mt-2">
           {[...Array(review.rating)].map((_, i) => (
-            <FaStar key={i} className="text-gray-800" />
+            <FaStar key={i} className="text-gray-700" />
           ))}
           <p className="text-gray-500 text-sm">{review.date}</p>
         </div>
@@ -188,10 +188,10 @@ const ReviewCard = ({ review }) => {
         </p>
         <div className="flex items-center gap-4 mt-3 text-sm text-gray-600">
           <p className="border px-2 py-1 rounded-lg bg-gray-100">
-            <span className="font-bold text-black">{review.price}</span> Price
+            <span className="font-bold text-gray-600">{review.price}</span> Price
           </p>
           <p className="border px-2 py-1 rounded-lg bg-gray-100">
-            <span className="font-bold text-black">{review.duration}</span> Duration
+            <span className="font-bold text-gray-600">{review.duration}</span> Duration
           </p>
         </div>
       </div>
@@ -214,7 +214,7 @@ const ReviewsSection = () => {
   
     return (
       <div className="lg:p-6 mx-auto">
-        <h2 className="lg:text-2xl md:text-xl text-lg font-bold">1,873 Reviews</h2>
+        <h2 className="md:text-xl text-lg font-bold text-gray-700">1,873 Reviews</h2>
         <div className="flex flex-col md:flex-row md:items-start mt-4 gap-10">
           {/* Rating Distribution */}
           <div>
@@ -222,7 +222,7 @@ const ReviewsSection = () => {
               <div key={index} className="flex items-center gap-2">
                 <p>{item.stars} Stars</p>
                 <div className="w-48 h-2 bg-gray-200 rounded overflow-hidden">
-                  <div className={`h-full bg-black rounded`} style={{ width: `${(item.count / 1873) * 100}%` }}></div>
+                  <div className={`h-full bg-gray-800 rounded`} style={{ width: `${(item.count / 1873) * 100}%` }}></div>
                 </div>
                 <p className="text-gray-500">({item.count})</p>
               </div>
@@ -231,12 +231,12 @@ const ReviewsSection = () => {
   
           {/* Rating Breakdown */}
           <div className="max-w-sm w-full">
-            <h3 className="font-semibold text-lg text-black">Rating Breakdown</h3>
+            <h3 className="font-semibold text-lg text-gray-700">Rating Breakdown</h3>
             {["Seller communication level", "Quality of delivery", "Value of delivery"].map((category, index) => (
               <div key={index} className="flex justify-between mt-1">
                 <p className="text-gray-500">{category}</p>
                 <p className="font-bold flex items-center gap-1">
-                  <FaStar className="text-gray-800" /> 4.9
+                  <FaStar className="text-gray-700" /> 4.9
                 </p>
               </div>
             ))}
@@ -246,7 +246,7 @@ const ReviewsSection = () => {
         <div className="border-b border-gray-300 my-8"></div>
   
         <div className="flex items-center justify-between mb-8">
-            <h3 className="md:text-lg text-base font-semibold">
+            <h3 className="md:text-lg text-base font-semibold text-gray-600">
                 Showing {Math.min(visibleReviews, reviews.length)} out of 10 Reviews
             </h3>
             <div className="relative">
@@ -289,14 +289,14 @@ const ReviewsSection = () => {
           {visibleReviews < sortedReviews.length ? (
             <button
               onClick={() => setVisibleReviews(visibleReviews + 5)}
-              className="border cursor-pointer border-gray-200 text-black py-2 px-4 font-semibold rounded-lg active:scale-105 transition-all duration-150"
+              className="border cursor-pointer border-gray-200 text-gray-600 py-2 px-4 font-semibold rounded-lg active:scale-105 transition-all duration-150"
             >
               See More Reviews
             </button>
           ) : (
             <button
               onClick={() => setVisibleReviews(5)}
-              className="border cursor-pointer border-gray-200 text-black py-2 px-4 font-semibold rounded-lg active:scale-105 transition-all duration-150"
+              className="border cursor-pointer border-gray-200 text-gray-600 py-2 px-4 font-semibold rounded-lg active:scale-105 transition-all duration-150"
             >
               See Less Reviews
             </button>

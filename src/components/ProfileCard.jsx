@@ -30,7 +30,7 @@ const ProfileCard = () => {
       {/* Left Section */}
       <div className="lg:w-2/3 w-full">
       <div className="flex justify-between">
-        <div className="flex gap-6 items-center text-black">
+        <div className="flex gap-6 items-center text-gray-600">
           <div className="relative">
             <img className="md:w-28 w-24 md:h-28 h-24 rounded-full border-[0.5px] border-red-200" src={profile} alt="Nasu" />
             <span className="absolute bottom-2 right-2 w-4 h-4 bg-green-500 border-2 border-white rounded-full"></span>
@@ -38,35 +38,35 @@ const ProfileCard = () => {
           <div className="md:space-y-1.5 space-y-0.5">
             <h2 className="md:text-2xl text-xl font-bold"><a href="https://cutt.ly/finder3nasu" target="_blank">Nasu <span className="font-normal">@finder3nasu</span></a></h2>
             <div className="flex items-center gap-1 text-gray-600">
-              <FaStar className="text-black" />
+              <FaStar className="text-gray-600" />
               <span className="font-bold">4.9</span> <span className="underline">(1.9k)</span>
               <span className="ml-1">|</span>
               <span className="ml-2 text-sm font-bold"><span>Level 2 ✦✦</span><span className="text-gray-400">✦</span></span>
             </div>
-            <p className="text-black">Real Estate Branding Lady</p>
-            <p className="text-black text-sm flex items-center">
+            <p className="text-gray-600">Real Estate Branding Lady</p>
+            <p className="text-gray-600 text-sm flex items-center">
               <FiMessageCircle className="mr-1" />English, Spanish, German
             </p>
           </div>
         </div>
         <div className="md:flex hidden lg:hidden h-fit">
-            <a href="https://wa.me/15055757863" target="_blank" rel="noopener noreferrer" className="border cursor-pointer border-gray-200 text-black py-2 px-4 font-semibold rounded-lg">
+            <a href="https://wa.me/15055757863" target="_blank" rel="noopener noreferrer" className="border cursor-pointer border-gray-200 text-gray-600 py-2 px-4 font-semibold rounded-lg">
                 Whatsapp me
             </a>
         </div>
         </div>
         <div className="mt-6">
-          <h3 className="md:text-xl text-lg font-semibold">About me</h3>
-          <p className="text-black text-base md:text-[17px] mt-2">
-            Hi, I'm NaSu, a creative expert specializing in <strong>branding, marketing, and web solutions for real estate professionals</strong>. With years of experience in <strong>real estate branding, website design, pitch decks, social media marketing, and marketing collateral</strong>, I help agents, brokers, investors, and real estate businesses build a strong, professional presence.
+          <h3 className="md:text-xl text-lg font-semibold text-gray-600">About me</h3>
+          <p className="text-gray-600 text-base md:text-[17px] mt-2">
+            Hi, I'm NaSu, a creative expert specializing in <strong>branding, marketing, and web solutions for real estate professionals</strong>. With <strong>10 years</strong> of experience in <strong>real estate branding, website design, pitch decks, social media marketing, and marketing collateral</strong>, I help agents, brokers, investors, and real estate businesses build a strong, professional presence.
           </p>
-          <p className="text-black text-base md:text-[17px] mt-2">
+          <p className="text-gray-600 text-base md:text-[17px] mt-2">
             I provide <strong>high-quality, customized designs</strong> that elevate your brand, attract buyers, and generate leads. Whether you need a <strong>stunning real estate website, compelling pitch deck, social media content, or eye-catching marketing materials</strong>, I’ve got you covered.
           </p>
-          <p className="text-black text-base md:text-[17px] mt-2">Let’s work together to take your real estate business to the next level! 🚀</p>
+          <p className="text-gray-600 text-base md:text-[17px] mt-2">Let’s work together to take your real estate business to the next level! 🚀</p>
         </div>
         <div className="mt-6">
-          <h3 className="md:text-xl text-lg font-semibold">Skills</h3>
+          <h3 className="md:text-xl text-lg font-semibold text-gray-600">Skills</h3>
           <div className="flex flex-wrap gap-2 mt-2">
             {[
               "Custom Logo",
@@ -76,7 +76,7 @@ const ProfileCard = () => {
               "Flyer",
               "Broucher",
             ].map((skill) => (
-              <span key={skill} className="px-3 py-1 border border-gray-200 text-black text-sm rounded-full">
+              <span key={skill} className="px-3 py-1 border border-gray-200 text-gray-600 text-sm rounded-full">
                 {skill}
               </span>
             ))}
@@ -88,7 +88,7 @@ const ProfileCard = () => {
       <div className="lg:w-1/3 w-full">
         <div className="lg:flex justify-end mb-8 hidden">
             {/* Corrected WhatsApp link */}
-            <a href="https://wa.me/15055757863" target="_blank" rel="noopener noreferrer" className="border cursor-pointer border-gray-200 text-black py-2 px-4 font-semibold rounded-lg">
+            <a href="https://wa.me/15055757863" target="_blank" rel="noopener noreferrer" className="border cursor-pointer border-gray-200 text-gray-600 py-2 px-4 font-semibold rounded-lg">
             Whatsapp me
             </a>
         </div>
@@ -99,13 +99,13 @@ const ProfileCard = () => {
                 <span className="absolute bottom-0 right-0 w-4 h-4 bg-green-500 border-2 border-white rounded-full"></span>
             </div>
             <div className="text-left">
-                <h3 className="text-lg font-semibold">Nasu</h3>
+                <h3 className="text-lg font-semibold text-gray-700">Nasu</h3>
                 <p className="text-gray-700 text-sm">Online • {usaTime}</p>
             </div>
             </div>
             
             {/* Corrected Gmail link */}
-            <a href="mailto:nasu@fiverrlogogig.com" className="w-full cursor-pointer bg-black text-white py-2.5 rounded-lg mt-6 flex items-center justify-center gap-2 active:scale-105 transition-all duration-150">
+            <a href="mailto:nasu@fiverrlogogig.com" target="_blank" rel="noopener noreferrer" className="w-full cursor-pointer bg-black text-white py-2.5 rounded-lg mt-6 flex items-center justify-center gap-2 active:scale-105 transition-all duration-150">
             <GrSend /> Contact me
             </a>
 
