@@ -31,7 +31,7 @@ const ProfileCard = () => {
       <div className="flex justify-between">
         <div className="flex gap-6 items-center text-gray-600">
           <div className="relative">
-            <a href="https://www.linkedin.com/in/finder3nasu" target="_blank" rel="noopener noreferrer">
+            <a href="https://cutt.ly/finder3nasu" target="_blank" rel="noopener noreferrer">
               <img className="md:w-28 w-24 md:h-28 h-24 rounded-full border-[0.5px] border-red-200" src={profile} alt="Nasu" />
             </a>
             <span className="absolute md:bottom-2 bottom-1.5 md:right-2 right-1.5 w-4 h-4 bg-green-500 border-2 border-white rounded-full"></span>
@@ -96,7 +96,7 @@ const ProfileCard = () => {
         <div className="bg-white shadow rounded-lg p-8 text-center border border-gray-200">
             <div className="flex items-center gap-6">
             <div className="relative w-14 h-14">
-              <a href="https://www.linkedin.com/in/finder3nasu" target="_blank" rel="noopener noreferrer">
+              <a href="https://cutt.ly/finder3nasu" target="_blank" rel="noopener noreferrer">
                 <img className="w-full h-full rounded-full border-[0.5px] border-red-200" src={profile} alt="Nasu" />
               </a>
               <span className="absolute bottom-0 right-0 w-4 h-4 bg-green-500 border-2 border-white rounded-full"></span>
