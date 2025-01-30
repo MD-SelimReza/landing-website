@@ -289,14 +289,14 @@ const ReviewsSection = () => {
           {visibleReviews < sortedReviews.length ? (
             <button
               onClick={() => setVisibleReviews(visibleReviews + 5)}
-              className="border cursor-pointer border-gray-200 text-gray-600 py-2 px-4 font-semibold rounded-lg active:scale-105 transition-all duration-150"
+              className="border cursor-pointer border-gray-200 hover:bg-gray-100 text-gray-600 py-2 px-4 font-semibold rounded-lg active:scale-105 transition-all duration-150"
             >
               See More Reviews
             </button>
           ) : (
             <button
               onClick={() => setVisibleReviews(5)}
-              className="border cursor-pointer border-gray-200 text-gray-600 py-2 px-4 font-semibold rounded-lg active:scale-105 transition-all duration-150"
+              className="border cursor-pointer border-gray-200 hover:bg-gray-100 text-gray-600 py-2 px-4 font-semibold rounded-lg active:scale-105 transition-all duration-150"
             >
               See Less Reviews
             </button>
@@ -304,6 +304,6 @@ const ReviewsSection = () => {
         </div>
       </div>
     );
-  };
-  
-  export default ReviewsSection;
+};
+
+export default ReviewsSection;

@@ -50,7 +50,7 @@ const ProfileCard = () => {
           </div>
         </div>
         <div className="md:flex hidden lg:hidden h-fit">
-            <a href="https://wa.me/15055757863" target="_blank" rel="noopener noreferrer" className="border cursor-pointer border-gray-200 text-gray-600 py-2 px-4 font-semibold rounded-lg">
+            <a href="https://wa.me/15055757863" target="_blank" rel="noopener noreferrer" className="border cursor-pointer border-gray-200 hover:bg-gray-100 text-gray-600 py-2 px-4 font-semibold rounded-lg">
                 Whatsapp me
             </a>
         </div>
@@ -88,7 +88,7 @@ const ProfileCard = () => {
       <div className="lg:w-1/3 w-full">
         <div className="lg:flex justify-end mb-8 hidden">
             {/* Corrected WhatsApp link */}
-            <a href="https://wa.me/15055757863" target="_blank" rel="noopener noreferrer" className="border cursor-pointer border-gray-200 text-gray-600 py-2 px-4 font-semibold rounded-lg">
+            <a href="https://wa.me/15055757863" target="_blank" rel="noopener noreferrer" className="border cursor-pointer border-gray-200 hover:bg-gray-100 text-gray-600 py-2 px-4 font-semibold rounded-lg">
             Whatsapp me
             </a>
         </div>
@@ -105,15 +105,15 @@ const ProfileCard = () => {
             </div>
             
             {/* Corrected Gmail link */}
-            <a href="mailto:nasu@fiverrlogogig.com" target="_blank" rel="noopener noreferrer" className="w-full cursor-pointer bg-black text-white py-2.5 rounded-lg mt-6 flex items-center justify-center gap-2 active:scale-105 transition-all duration-150">
+            <a href="mailto:nasu@fiverrlogogig.com" target="_blank" rel="noopener noreferrer" className="w-full cursor-pointer bg-gray-800 hover:bg-gray-900 text-white py-2.5 rounded-lg mt-6 flex items-center justify-center gap-2 active:scale-105 transition-all duration-150">
             <GrSend /> Contact me
             </a>
 
-            <a href="https://wa.me/15055757863" target="_blank" rel="noopener noreferrer" className="w-full sm:hidden border-2 cursor-pointer bg-black text-white py-2.5 rounded-lg mt-6 flex items-center justify-center gap-2 active:scale-105 transition-all duration-150">
+            <a href="https://wa.me/15055757863" target="_blank" rel="noopener noreferrer" className="w-full hover:bg-gray-100 sm:hidden border-2 cursor-pointer bg-black text-white py-2.5 rounded-lg mt-6 flex items-center justify-center gap-2 active:scale-105 transition-all duration-150">
             <FaWhatsapp /> Whatsapp me
             </a>
             
-            <button className="w-full cursor-pointer mt-5 border border-gray-300 py-2.5 rounded-lg flex items-center justify-center gap-2 active:scale-105 transition-all duration-150">
+            <button className="w-full hover:bg-gray-100 cursor-pointer mt-5 border border-gray-300 py-2.5 rounded-lg flex items-center justify-center gap-2 active:scale-105 transition-all duration-150">
             <RiVideoOnLine /> Book a consultation
             </button>
             
