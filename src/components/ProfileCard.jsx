@@ -50,7 +50,7 @@ const ProfileCard = () => {
           </div>
         </div>
         <div className="md:flex hidden lg:hidden h-fit">
-            <a href="https://wa.me/15055757863" target="_blank" rel="noopener noreferrer" className="border cursor-pointer border-gray-200 hover:bg-gray-100 text-gray-600 py-2 px-4 font-bold rounded-lg flex items-center justify-center gap-2 active:scale-105 transition-all duration-150">
+            <a href="https://wa.me/15055757863" target="_blank" rel="noopener noreferrer" className="border cursor-pointer border-gray-200 hover:bg-gray-100 text-gray-700 py-2 px-4 font-bold rounded-lg flex items-center justify-center gap-2 active:scale-105 transition-all duration-150">
               <FaWhatsapp />  Whatsapp me
             </a>
         </div>
@@ -58,10 +58,10 @@ const ProfileCard = () => {
         <div className="mt-6">
           <h3 className="md:text-xl text-lg font-semibold text-gray-600">About me</h3>
           <p className="text-gray-600 text-base md:text-[17px] mt-2">
-            Hi, I'm NaSu, a creative expert specializing in <strong>branding, marketing, and web solutions for real estate professionals</strong>. With <strong>10 years</strong> of experience in <strong>real estate branding, website design, pitch decks, social media marketing, and marketing collateral</strong>, I help agents, brokers, investors, and real estate businesses build a strong, professional presence.
+            Hi, I'm NaSu, a creative expert specializing in <strong className="text-gray-500">branding, marketing, and web solutions for real estate professionals</strong>. With <strong className="text-gray-500">10 years</strong> of experience in <strong className="text-gray-500">real estate branding, website design, pitch decks, social media marketing, and marketing collateral</strong>, I help agents, brokers, investors, and real estate businesses build a strong, professional presence.
           </p>
           <p className="text-gray-600 text-base md:text-[17px] mt-2">
-            I provide <strong>high-quality, customized designs</strong> that elevate your brand, attract buyers, and generate leads. Whether you need a <strong>stunning real estate website, compelling pitch deck, social media content, or eye-catching marketing materials</strong>, I’ve got you covered.
+            I provide <strong className="text-gray-500">high-quality, customized designs</strong> that elevate your brand, attract buyers, and generate leads. Whether you need a <strong className="text-gray-500">stunning real estate website, compelling pitch deck, social media content, or eye-catching marketing materials</strong>, I’ve got you covered.
           </p>
           <p className="text-gray-600 text-base md:text-[17px] mt-2">Let’s work together to take your real estate business to the next level! 🚀</p>
         </div>
@@ -113,7 +113,7 @@ const ProfileCard = () => {
             <FaWhatsapp /> Whatsapp me
             </a>
             
-            <button className="w-full text-gray-700 hover:bg-gray-100 font-bold cursor-pointer mt-5 border border-gray-300 py-2.5 rounded-lg flex items-center justify-center gap-2 active:scale-105 transition-all duration-150">
+            <button className="w-full text-gray-600 hover:bg-gray-100 font-bold cursor-pointer mt-5 border border-gray-300 py-2.5 rounded-lg flex items-center justify-center gap-2 active:scale-105 transition-all duration-150">
             <RiVideoOnLine /> Book a consultation
             </button>
             
