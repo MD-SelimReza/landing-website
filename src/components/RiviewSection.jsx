@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { FaChevronDown, FaChevronUp, FaStar } from "react-icons/fa";
-import usa from "../../public/usa.png";
-import uk from "../../public/uk.png";
+import usa from "/usa.png";
+import uk from "/uk.png";
 
 const reviews = [
   {

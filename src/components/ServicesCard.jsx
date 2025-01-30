@@ -1,9 +1,9 @@
 import React from "react";
-import brand1 from "../../public/brand1.jpg";
-import brand2 from "../../public/brand2.jpg";
-import brand3 from "../../public/brand3.jpg";
-import brand4 from "../../public/brand4.jpg";
-import brand5 from "../../public/brand5.jpg";
+import brand1 from "/brand1.jpg";
+import brand2 from "/brand2.jpg";
+import brand3 from "/brand3.jpg";
+import brand4 from "/brand4.jpg";
+import brand5 from "/brand5.jpg";
 
 const services = [
   {
