@@ -117,7 +117,7 @@ const ProfileCard = () => {
             </a>
             
             <a href="https://www.linkedin.com/in/finder3nasu" target="_blank" rel="noopener noreferrer" className="w-full text-gray-600 hover:bg-gray-100 font-bold cursor-pointer mt-5 border border-gray-300 py-2.5 rounded-lg flex items-center justify-center gap-2 active:scale-105 transition-all duration-150">
-            <FaLinkedin size={20} className="text-blue-500 rounded-md" /> Linkedin me
+            <FaLinkedin size={20} className="text-blue-500 rounded-md" /> LinkedIn
             </a>
             
             <p className="text-gray-500 text-sm text-center mt-4">
