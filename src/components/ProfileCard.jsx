@@ -58,10 +58,10 @@ const ProfileCard = () => {
         <div className="mt-6">
           <h3 className="md:text-xl text-lg font-semibold text-gray-600">About me</h3>
           <p className="text-gray-600 text-base md:text-[17px] mt-2">
-            Hi, I'm NaSu, a creative expert specializing in <strong className="text-gray-500">branding, marketing, and web solutions for real estate professionals</strong>. With <strong className="text-gray-500">10 years</strong> of experience in <strong className="text-gray-500">real estate branding, website design, pitch decks, social media marketing, and marketing collateral</strong>, I help agents, brokers, investors, and real estate businesses build a strong, professional presence.
+            Hi, I'm NaSu, a creative expert specializing in <strong className="text-gray-600">branding, marketing, and web solutions for real estate professionals</strong>. With <strong className="text-gray-600">10 years</strong> of experience in <strong className="text-gray-600">real estate branding, website design, pitch decks, social media marketing, and marketing collateral</strong>, I help agents, brokers, investors, and real estate businesses build a strong, professional presence.
           </p>
           <p className="text-gray-600 text-base md:text-[17px] mt-2">
-            I provide <strong className="text-gray-500">high-quality, customized designs</strong> that elevate your brand, attract buyers, and generate leads. Whether you need a <strong className="text-gray-500">stunning real estate website, compelling pitch deck, social media content, or eye-catching marketing materials</strong>, I’ve got you covered.
+            I provide <strong className="text-gray-600">high-quality, customized designs</strong> that elevate your brand, attract buyers, and generate leads. Whether you need a <strong className="text-gray-600">stunning real estate website, compelling pitch deck, social media content, or eye-catching marketing materials</strong>, I’ve got you covered.
           </p>
           <p className="text-gray-600 text-base md:text-[17px] mt-2">Let’s work together to take your real estate business to the next level! 🚀</p>
         </div>
